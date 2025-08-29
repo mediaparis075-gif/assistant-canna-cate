@@ -196,5 +196,10 @@ const App: React.FC = () => {
                         break;
                     }
                     case 'COPY_YOAST_META_DESC_TO_DESC': {
-                        const categoryNameToCopyFrom = parsedResponse.payload.categoryName;
-                        if (!categoryNameToCopyFrom)
+  const categoryNameToCopyFrom = parsedResponse.payload.categoryName;
+  if (!categoryNameToCopyFrom) {
+    break; // Sort du bloc 'case' si la condition est vraie
+  }
+  // Ajoutez votre autre logique ici si nécessaire
+  break; // Important pour éviter de continuer vers le 'case' suivant
+}
