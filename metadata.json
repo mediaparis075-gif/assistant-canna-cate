@@ -1,0 +1,7 @@
+{
+  "name": "Copy of agent word canna",
+  "description": "A revolutionary web application for managing WordPress and WooCommerce with a conversational AI agent powered by Gemini. It features a modern chat interface, voice commands, and real-time metadata editing.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
